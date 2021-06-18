@@ -1,0 +1,62 @@
+h1, h2, p, a
+{
+  color: #fff;
+  text-shadow: 0px 0px 3vmin  #aaf;
+}
+
+body
+{
+  background: #000;
+  text-align: center;
+}
+
+header
+{
+  position: sticky;
+  top: 2%;
+  width: 80%;
+  border-radius: 25%;
+  border-bottom: solid .5vmin #fff;
+  margin: 0px auto;
+  margin-bottom: 7vmin;
+  z-index: 99;
+}
+h1
+{
+  font-family: Georgia;
+  font-size: 9vmin;
+}
+nav
+{
+  position: fixed;
+  left: 2vw;
+  top: 40vmin;
+  width: 18vw;
+  height: 35vmin;
+  border-radius: 0% 0% 25% 25%;
+  box-shadow: inset 0px -40vmin 15vmin -25vmin #aaff3366;
+  padding: 1%;
+  z-index: 98;
+}
+nav a
+{
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5%;
+  font-size: 5.1vmin;
+  transition: all .2s linear;
+}
+nav a:hover
+{
+  /* border-bottom: solid .2vmin #fff; */
+  font-size: 7vmin;
+  color: #fdc;
+}
+
+footer
+{
+  width: 100%;
+  border-radius: 0% 0% 30% 30%;
+  box-shadow: inset 0px -15vmin 15vmin -15vmin #aaff3366;
+  margin-top: 15%;
+}
